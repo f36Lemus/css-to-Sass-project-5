@@ -1,0 +1,241 @@
+/* ================================= 
+  Base Element Styles
+==================================== */
+* {
+  box-sizing: border-box; }
+
+body {
+  font-family: "Verdana", sans-serif;
+  line-height: 1.6;
+  color: #3a3a3a; }
+
+p {
+  font-size: 0.95em;
+  margin-bottom: 1.8em;
+  color: #908c8c; }
+
+a {
+  color: #3a3a3a;
+  text-decoration: none;
+  cursor: pointer; }
+
+a:hover {
+  color: #8a8686; }
+
+h2,
+h3 {
+  color: #093a58; }
+
+h2,
+h3 {
+  margin-top: 0; }
+
+img {
+  max-width: 100%; }
+
+/* ---- Navigation ---- */
+.name a {
+  color: #000000;
+  font-size: 0.8em; }
+
+.main-header {
+  text-align: center; }
+.main-nav {
+  margin-bottom: 50px; }
+.main-nav li {
+  margin: 25px 0px; }
+
+.image-perfil {
+  width: 60%;
+  border-radius: 50%; }
+
+.tagline {
+  margin: 10px 10px; }
+
+.perfil {
+  margin: 30px 15px; }
+
+.main-footer .footer-menu {
+  display: none; }
+
+.footer-nav li p {
+  padding-bottom: 15px; }
+
+.footer-nav li .name-footer {
+  font-size: 0.8em;
+  float: left;
+  margin: 10px 0; }
+
+.footer-nav li .back-top {
+  font-size: 0.8em;
+  float: right;
+  margin: 10px 0; }
+
+/* ---- Layout Containers ---- */
+#wrapper {
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 3%;
+  text-align: center; }
+
+#portfolio h1,
+#contact h1 {
+  font-size: 1.3em;
+  margin-top: 90px;
+  margin-bottom: 50px;
+  padding: 0 20px; }
+
+#gallery li {
+  padding-top: 10px; }
+
+#gallery h3 {
+  margin-top: 20px;
+  font-weight: normal;
+  font-size: 1.5em; }
+
+/*====================================
+  Media Queries
+==================================== */
+@media (min-width: 768px) {
+  /**********************************
+  TWO COLUMN LAYOUT
+  ***********************************/
+  .main-nav {
+    margin: 0 auto;
+    text-align: center; }
+
+  .main-nav li {
+    margin: 0 10px;
+    display: inline-block; }
+
+  .main-nav li a {
+    padding: 15px 10px; }
+
+  #gallery {
+    width: 100%; }
+
+  .tagline {
+    margin: 10px 0 0 0;
+    text-align: left;
+    font-size: 1.2em; }
+
+  .perfil {
+    margin-top: 50px;
+    margin-right: 0;
+    margin-left: 0; }
+
+  .image-perfil {
+    float: right;
+    width: 35%;
+    padding-left: 10px;
+    margin-left: 10px;
+    margin-top: -20px; }
+
+  #gallery li {
+    float: left;
+    width: 48%;
+    margin: 1%; }
+
+  #portfolio h1,
+  #contact h1 {
+    font-size: 1em; }
+
+  #gallery h3 {
+    font-size: 1.2em; }
+
+  #contact p {
+    font-size: 1.3em; }
+
+  .main-footer .footer-menu {
+    display: inline;
+    float: right;
+    margin-top: 10px; }
+
+  .main-footer .footer-menu li {
+    float: left;
+    text-transform: uppercase;
+    margin-left: 15px;
+    font-size: .8em; }
+
+  .main-footer .footer-menu li a {
+    color: #292929;
+    padding: 2px;
+    font-weight: bold; }
+
+  .footer-nav {
+    float: left; }
+
+  .footer-nav .back-top {
+    display: none; } }
+@media (min-width: 1100px) {
+  /**********************************
+  THREE COLUMN LAYOUT
+  ***********************************/
+  h1 {
+    font-size: 2em; }
+
+  .image-perfil {
+    width: 30%;
+    margin-top: -40px;
+    margin-left: 20px; }
+
+  .tagline {
+    margin: 60px 0 0 0;
+    font-size: 1.3em; }
+
+  header {
+    margin-bottom: 60px; }
+
+  #top-container {
+    width: 100%;
+    margin-top: 30px; }
+
+  .clear:after {
+    content: "  ";
+    display: table;
+    clear: both; }
+
+  .name {
+    float: left;
+    text-align: left; }
+
+  .main-nav {
+    float: right;
+    text-align: right;
+    margin-top: 40px; }
+
+  .main-nav li {
+    display: inline-block; }
+
+  #gallery li {
+    width: 31.3333333%; }
+
+  #gallery li:nth-child(4n) {
+    clear: left; }
+
+  #wrapper {
+    width: 100%;
+    max-width: 1280px; }
+
+  #contact {
+    padding: 0 130px 60px 130px; } }
+.footer-nav li .name-footer, .footer-nav li .back-top, #gallery h3 {
+  color: #292929; }
+
+.main-nav a, .footer-nav li .back-top, #portfolio h1,
+#contact h1 {
+  text-transform: uppercase; }
+
+.main-nav a, .footer-nav li .name-footer, .footer-nav li .back-top {
+  font-weight: bold; }
+
+.perfil:after, #portfolio:after {
+  content: "  ";
+  display: table;
+  clear: both; }
+
+#contact {
+  margin-bottom: 60px;
+  padding: 0; }
+
+/*# sourceMappingURL=app.css.map */

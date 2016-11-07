@@ -1,0 +1,27 @@
+// color text navigat
+
+%color-nav {
+	color: $color-text-footer;
+}
+
+// uppercase text-transform: 
+
+%upper-text {
+	text-transform: uppercase;
+}
+
+// font weight
+
+%to-font-weight {
+	  font-weight: bold;
+}
+
+// Clearfix 
+
+%clear {
+	&:after{
+    content: "  ";
+    display: table;
+    clear: both;
+  }
+}

@@ -1,0 +1,26 @@
+.main-footer .footer-menu{
+	display: none;
+}
+
+
+.footer-nav li p {
+  padding-bottom: 15px;
+}
+
+.footer-nav li .name-footer {
+  @extend %color-nav;
+  @extend %to-font-weight;
+  font-size: $font-s-nav;
+  float: left;
+  margin: 10px 0;
+}
+
+.footer-nav li .back-top {
+  @extend %color-nav;
+  @extend %to-font-weight;
+  @extend %upper-text;
+  font-size: $font-s-nav;
+  float: right;
+  margin: 10px 0;
+  
+}

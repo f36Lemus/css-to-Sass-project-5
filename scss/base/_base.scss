@@ -1,0 +1,49 @@
+/* ================================= 
+  Base Element Styles
+==================================== */
+
+* {
+	box-sizing: border-box;
+}
+
+body {
+	font-family: $stack-verdana;
+	line-height: 1.6;
+	color: $color-prim;
+ 
+}
+
+p {
+	font-size: $font-s-p;
+	margin-bottom: 1.8em;
+	color: $color-text-p;
+}
+
+a {
+    color: $color-text-link;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+
+
+a:hover {
+	color: $color-text-link-h;
+}
+
+
+h2,
+h3 {
+	color: $color-text-headers;
+}
+
+h2,
+h3 {
+	margin-top: 0;
+}
+
+
+img {
+	max-width: 100%;
+}
+

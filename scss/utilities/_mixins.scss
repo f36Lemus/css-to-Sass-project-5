@@ -1,0 +1,22 @@
+//======================================
+// Mixins
+//======================================
+
+
+// ==== Media Queries =================
+
+@mixin mediaQ($break-p) {
+	@if $break-p == "medium" {
+		@media (min-width: $breakpoint-md) {
+			@content;
+		}
+	} 
+	@else if $break-p == "large" {
+		@media (min-width: $breakpoint-lg) {
+			@content;
+		}
+	}
+	@else {
+		@error "Ops !!! No value could be retrieved for `#{$break-p}`."
+	}
+}

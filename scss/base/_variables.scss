@@ -1,0 +1,37 @@
+
+// Descriptive Color variables 
+
+$mine-shaft      : #3a3a3a;
+$gray            : #908c8c;
+$gray-h          : #8a8686;
+$tarawera        : #093a58;
+$tundora         : #000000;
+$mine-shaft-h    : #292929;
+
+// Functional color variables
+
+$color-prim            : $mine-shaft;
+
+$color-text-p          : $gray;
+$color-text-link       : $mine-shaft;
+$color-text-link-h     : $gray-h;
+$color-text-headers    : $tarawera;
+$color-text-name-link  : $tundora;
+$color-text-footer     : $mine-shaft-h;
+
+// font stacks
+
+$stack-sans-serif  : sans-serif;
+$stack-verdana     : 'Verdana', $stack-sans-serif;
+
+// font sizes
+
+$font-s-p          : .95em;
+$font-s-h          : 1.3em;
+$font-s-ht         : 1.5em;
+$font-s-nav        : 0.8em;
+
+// Breakpoints
+
+$breakpoint-md    :  768px;
+$breakpoint-lg    : 1100px;
