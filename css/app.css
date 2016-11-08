@@ -117,7 +117,7 @@ img {
   .tagline {
     margin: 10px 0 0 0;
     text-align: left;
-    font-size: 1.2em; }
+    font-size: 1.3em; }
 
   .perfil {
     margin-top: 50px;
@@ -138,10 +138,10 @@ img {
 
   #portfolio h1,
   #contact h1 {
-    font-size: 1em; }
+    font-size: 0.95em; }
 
   #gallery h3 {
-    font-size: 1.2em; }
+    font-size: 1.3em; }
 
   #contact p {
     font-size: 1.3em; }
@@ -155,7 +155,7 @@ img {
     float: left;
     text-transform: uppercase;
     margin-left: 15px;
-    font-size: .8em; }
+    font-size: 0.8em; }
 
   .main-footer .footer-menu li a {
     color: #292929;
